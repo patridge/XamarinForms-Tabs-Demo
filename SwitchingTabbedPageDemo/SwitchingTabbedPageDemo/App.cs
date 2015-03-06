@@ -1,10 +1,10 @@
 ﻿using Xamarin.Forms;
 
 namespace SwitchingTabbedPageDemo {
-    public class App : Application {
-    	public App() {
-    		MainPage = new MainTabbedPage();
-    	}
+	public class App : Application {
+		public App() {
+			MainPage = new MainTabbedPage();
+		}
 
 		protected override void OnStart() {
 			// Handle when your app starts
